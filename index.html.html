@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div id="container">
+        <form name="cal">
+            <input id="display"name="Answer">
+            <br><br>
+            <input type="button" value="1" onclick="cal.Answer.value +='1'">
+            <input type="button" value="2" onclick="cal.Answer.value +='2'">
+            <input type="button" value="3" onclick="cal.Answer.value +='3'">
+            <input type="button" value="+" onclick="cal.Answer.value +='+'">
+            <br><br>
+            <input type="button" value="4" onclick="cal.Answer.value+='4'">
+            <input type="button" value="5" onclick="cal.Answer.value+='5'">
+            <input type="button" value="6" onclick="cal.Answer.value+='6'">
+            <input type="button" value="-" onclick="cal.Answer.value+='-'">
+            <br><br>
+            <input type="button" value="7" onclick="cal.Answer.value+='7'">
+            <input type="button" value="8" onclick="cal.Answer.value+='8'">
+            <input type="button" value="9" onclick="cal.Answer.value+='9'">
+            <input type="button" value="*" onclick="cal.Answer.value+='*'">
+            <br><br>
+            <input type="button" value="/" onclick="cal.Answer.value+='/'">
+            <input type="button" value="0" onclick="cal.Answer.value+='0'">
+            <input type="button" value="." onclick="cal.Answer.value+='.'">
+            <input type="button" value="%" onclick="cal.Answer.value+='%'">
+            <br><br>
+            <input type="button" value="clear" onclick="cal.Answer.value=' '">
+            <input type="button" value="=" onclick="cal.Answer.value=eval(cal.Answer.value)">
+        </form>
+    </div>
+</center>
+</body>
+</html>
